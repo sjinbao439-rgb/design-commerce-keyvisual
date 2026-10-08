@@ -1,0 +1,13 @@
+interface:
+  display_name: 电商主视觉设计
+  short_description: 根据产品图片与资料生成跨品类电商主视觉，保护商品细节并校验文案
+  default_prompt: 使用 $design-commerce-keyvisual，根据我提供的产品图片和资料生成适合该产品的电商主视觉。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
